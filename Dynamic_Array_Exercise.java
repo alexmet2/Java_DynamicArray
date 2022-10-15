@@ -2,6 +2,17 @@ public class Dynamic_Array_Exercise{
     public static void main(String[] args){
         /* 
             Dynamic Array 
+
+            Advantages:
+            1. Random access of elements 0(1)
+            2. Good locality of reference and data cache utilization
+            3. Easy to insert/delete at the end
+
+            Disadvantages:
+            1. Wastes more memory
+            2. Shifting elements is time consuming 0(n)
+            3. Expanding/Skrinking the array is time consuming
+
         */
         /* if we type new Dynamic_Array(5), the capacity will be 5 */
         Dynamic_Array dynamicArray = new Dynamic_Array();
